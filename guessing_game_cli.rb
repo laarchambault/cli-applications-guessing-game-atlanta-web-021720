@@ -16,7 +16,7 @@ end
 def run_guessing_game
   computer_answer = generate_computer_answer
   prompt_user
-  input = capture_guess
+  input = capture_guess.
   if input == 'exit'
     puts "Goodbye!"
     elsif input == computer_answer
